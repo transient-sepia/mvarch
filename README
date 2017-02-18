@@ -1,0 +1,10 @@
+It's really straight forward:
+
+ - set the following variables: FROM, DIR, NUM
+ - execute the script like this:
+
+     $ ./mvarch.sh
+
+ - archivelogs are moved to the DIR directory, links to those logs are created in FROM directory.
+ - you can now do a backup since the archiver is unstuck.
+ - don't forget to remove the files in DIR directory since the links are symbolic.
